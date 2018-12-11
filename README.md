@@ -34,7 +34,7 @@
   ```
   python began.py --cuda --outf 128/ --ndf 128 --ngf 128 --gamma 0.7 --loadSize 128 --fineSize 128 --dataPath Data/128_crop/ --res 0.5
   ```
-###Reproduce the FID score
+### Reproduce the FID score
 - Generate images
    **For example, use the model with residual loss at 40K**
    '''
