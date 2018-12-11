@@ -1,15 +1,22 @@
 # Codes for final project of COMS 4731 Computer Vision
-Authors: Xudong Lin, Shiyuan Huang
-Email: xudong.lin@columbia.edu, shiyuanh15@gmail.com
-Our technical report is coming soon.
+- Authors: Xudong Lin, Shiyuan Huang
+- Email: xudong.lin@columbia.edu, shiyuanh15@gmail.com
+- Our technical report is coming soon.
 
 # Audio-conditioned talking face generation
-In this project, we built a system which generates talking face from an audio.
-Watch our results [here](https://www.youtube.com/watch?v=aUtfPJpzuuc)
-Our system consists of three modules: audio feature extractor, face generator, talking face generator.
+- In this project, we built a system which generates talking face from an audio.
+- Watch our results [here](https://www.youtube.com/watch?v=aUtfPJpzuuc)
+- Our system consists of three modules: audio feature extractor, face generator, talking face generator.
 
 ## Audio feature extractor
 ### Prerequisites
+- Matlab
+- MatconvNet
+### Instructions
+- Download the dataset VoxCeleb: [Audio](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/), [frames extracted at 1fps](http://www.robots.ox.ac.uk/~vgg/research/CMBiometrics/)
+- Find the pretrained model for feature extractor: [emotion feature](https://github.com/albanie/mcnCrossModalEmotions/blob/master/README.md), [identoity feature](https://github.com/a-nagrani/VGGVox/blob/master/README.md).
+
+
 
 - PyTorch
 - torchvision
