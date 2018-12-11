@@ -4,9 +4,12 @@
 # Detailed instructions are coming soon
 
 
-
+#Audio-conditioned talking face generation
+In this project, we built a system which generates talking face from an audio.
+Watch our results here(https://www.youtube.com/watch?v=aUtfPJpzuuc)
 
 ## Prerequisites
+
 - PyTorch
 - torchvision
 
