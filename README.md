@@ -1,14 +1,15 @@
-# audio-face-generation
 # Codes for final project of COMS 4731 Computer Vision
-# Authors: Xudong Lin, Shiyuan Huang
-# Detailed instructions are coming soon
+Authors: Xudong Lin, Shiyuan Huang
+Email: xudong.lin@columbia.edu, shiyuanh15@gmail.com
+Our technical report is coming soon.
 
-
-#Audio-conditioned talking face generation
+# Audio-conditioned talking face generation
 In this project, we built a system which generates talking face from an audio.
 Watch our results [here](https://www.youtube.com/watch?v=aUtfPJpzuuc)
+Our system consists of three modules: audio feature extractor, face generator, talking face generator.
 
-## Prerequisites
+## Audio feature extractor
+### Prerequisites
 
 - PyTorch
 - torchvision
