@@ -1,25 +1,16 @@
 # audio-face-generation
 # Codes for final project of COMS 4731 Computer Vision
 # Authors: Xudong Lin, Shiyuan Huang
-# Code is coming soon
-# PyTorch Implementation of BEGAN
+# Detailed instructions are coming soon
 
-PyTorch Implementation of [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717).
+
+
 
 ## Prerequisites
 - PyTorch
 - torchvision
 
-## Testing using pre-trained model
-   - To generate 64x64 faces
 
-   ```
-   python generate.py --cuda --netG dcgan/netG_200000.pth --imageSize 64 --ngf 64 --nz 64
-   ```
-   - To generate 128x128 faces
-
-   ```
-   python generate.py --cuda --netG dcgan/netG_70000.pth --imageSize 128 --ngf 128 --nz 64
    ```
 
 ## Training
@@ -33,7 +24,7 @@ PyTorch Implementation of [BEGAN: Boundary Equilibrium Generative Adversarial Ne
   python began.py --cuda --dataPath Data/64_crop --gamma 0.4 --niter 200000
   ```
 
-  **Train on 64x64 images**
+  **Train on 128x128 images**
   ```
   python began.py --cuda --outf 128/ --ndf 128 --ngf 128 --gamma 0.7 --loadSize 128 --fineSize 128 --dataPath Data/128_crop/
   ```
